@@ -3,7 +3,7 @@ x=int(input())
 result=1
 while n>0:
     if n&1:
-      res*=x
+      result*=x
     x*=x
     n=>>n
-print(res)
+print(result)
